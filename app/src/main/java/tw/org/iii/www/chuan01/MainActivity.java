@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btnclick.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                mesg.setText("樂透號碼:"+(int)(Math.random()*49));
+                mesg.setText("樂透號碼:"+(int)(Math.random()*49+1));
             }
         });
 
